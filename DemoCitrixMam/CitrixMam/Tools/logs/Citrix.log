@@ -34,3 +34,8 @@
 ------------------------------
 
 2021-10-20 11:16:28 [ManifestLib] Code signature may not exist. Using all default to resign the app.
+2021-10-20 11:17:33 [ManifestLib] Code signature may not exist. Using all default to resign the app.
+2021-10-20 11:18:06 [ToolkitLib] ERROR:  Unknown loader command found  in the application binary image.
+2021-10-20 11:18:06 [CommandLine] ERROR:  Unknown loader command found  in the application binary image.
+------------------------------
+
