@@ -3,3 +3,34 @@
 2021-10-20 11:07:59 [CommandLine] Failed to generate this file: manifest.xml
 ------------------------------
 
+2021-10-20 11:09:07 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:09:07 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:09:07 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:10:44 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:10:44 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:10:44 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:11:09 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:11:09 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:11:09 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:11:58 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:11:58 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:11:58 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:14:40 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:14:40 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:14:40 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:16:16 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:16:16 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:16:16 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
+2021-10-20 11:16:28 [ManifestLib] Code signature may not exist. Using all default to resign the app.
