@@ -11,7 +11,41 @@
 		536753B8272012510009CED8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536753B7272012510009CED8 /* ContentView.swift */; };
 		536753BA272012520009CED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536753B9272012520009CED8 /* Assets.xcassets */; };
 		536753BD272012520009CED8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 536753BC272012520009CED8 /* Preview Assets.xcassets */; };
+		536753CB272012AB0009CED8 /* CitrixLogger.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C4272012AB0009CED8 /* CitrixLogger.xcframework */; };
+		536753CC272012AB0009CED8 /* CitrixLogger.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C4272012AB0009CED8 /* CitrixLogger.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753CD272012AB0009CED8 /* CTXMAMNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C5272012AB0009CED8 /* CTXMAMNetwork.xcframework */; };
+		536753CE272012AB0009CED8 /* CTXMAMNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C5272012AB0009CED8 /* CTXMAMNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753CF272012AB0009CED8 /* CTXMAMCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C6272012AB0009CED8 /* CTXMAMCore.xcframework */; };
+		536753D0272012AB0009CED8 /* CTXMAMCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C6272012AB0009CED8 /* CTXMAMCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753D1272012AB0009CED8 /* CTXMAMCompliance.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C7272012AB0009CED8 /* CTXMAMCompliance.xcframework */; };
+		536753D2272012AB0009CED8 /* CTXMAMCompliance.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C7272012AB0009CED8 /* CTXMAMCompliance.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753D3272012AB0009CED8 /* CTXMAMContainment.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C8272012AB0009CED8 /* CTXMAMContainment.xcframework */; };
+		536753D4272012AB0009CED8 /* CTXMAMContainment.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C8272012AB0009CED8 /* CTXMAMContainment.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753D5272012AB0009CED8 /* CTXMAMLocalAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C9272012AB0009CED8 /* CTXMAMLocalAuth.xcframework */; };
+		536753D6272012AB0009CED8 /* CTXMAMLocalAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753C9272012AB0009CED8 /* CTXMAMLocalAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		536753D7272012AB0009CED8 /* CTXMAMAppCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536753CA272012AB0009CED8 /* CTXMAMAppCore.xcframework */; };
+		536753D8272012AB0009CED8 /* CTXMAMAppCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 536753CA272012AB0009CED8 /* CTXMAMAppCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		536753D9272012AB0009CED8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				536753D2272012AB0009CED8 /* CTXMAMCompliance.xcframework in Embed Frameworks */,
+				536753D8272012AB0009CED8 /* CTXMAMAppCore.xcframework in Embed Frameworks */,
+				536753D6272012AB0009CED8 /* CTXMAMLocalAuth.xcframework in Embed Frameworks */,
+				536753D0272012AB0009CED8 /* CTXMAMCore.xcframework in Embed Frameworks */,
+				536753CE272012AB0009CED8 /* CTXMAMNetwork.xcframework in Embed Frameworks */,
+				536753CC272012AB0009CED8 /* CitrixLogger.xcframework in Embed Frameworks */,
+				536753D4272012AB0009CED8 /* CTXMAMContainment.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		536753B2272012510009CED8 /* DemoCitrixMam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCitrixMam.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +53,16 @@
 		536753B7272012510009CED8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		536753B9272012520009CED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		536753BC272012520009CED8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		536753C4272012AB0009CED8 /* CitrixLogger.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CitrixLogger.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CitrixLogger.xcframework; sourceTree = "<group>"; };
+		536753C5272012AB0009CED8 /* CTXMAMNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMNetwork.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMNetwork.xcframework; sourceTree = "<group>"; };
+		536753C6272012AB0009CED8 /* CTXMAMCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMCore.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMCore.xcframework; sourceTree = "<group>"; };
+		536753C7272012AB0009CED8 /* CTXMAMCompliance.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMCompliance.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMCompliance.xcframework; sourceTree = "<group>"; };
+		536753C8272012AB0009CED8 /* CTXMAMContainment.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMContainment.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMContainment.xcframework; sourceTree = "<group>"; };
+		536753C9272012AB0009CED8 /* CTXMAMLocalAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMLocalAuth.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMLocalAuth.xcframework; sourceTree = "<group>"; };
+		536753CA272012AB0009CED8 /* CTXMAMAppCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CTXMAMAppCore.xcframework; path = DemoCitrixMam/CitrixMam/Frameworks/CTXMAMAppCore.xcframework; sourceTree = "<group>"; };
+		536753DA272012D10009CED8 /* DemoCitrixMam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoCitrixMam-Bridging-Header.h"; sourceTree = "<group>"; };
+		536753DB272012FA0009CED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		536753DC2720132E0009CED8 /* DemoCitrixMam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoCitrixMam.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536753D1272012AB0009CED8 /* CTXMAMCompliance.xcframework in Frameworks */,
+				536753D7272012AB0009CED8 /* CTXMAMAppCore.xcframework in Frameworks */,
+				536753D5272012AB0009CED8 /* CTXMAMLocalAuth.xcframework in Frameworks */,
+				536753CF272012AB0009CED8 /* CTXMAMCore.xcframework in Frameworks */,
+				536753CD272012AB0009CED8 /* CTXMAMNetwork.xcframework in Frameworks */,
+				536753CB272012AB0009CED8 /* CitrixLogger.xcframework in Frameworks */,
+				536753D3272012AB0009CED8 /* CTXMAMContainment.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +88,7 @@
 			children = (
 				536753B4272012510009CED8 /* DemoCitrixMam */,
 				536753B3272012510009CED8 /* Products */,
+				536753C3272012AB0009CED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +103,11 @@
 		536753B4272012510009CED8 /* DemoCitrixMam */ = {
 			isa = PBXGroup;
 			children = (
+				536753DC2720132E0009CED8 /* DemoCitrixMam.entitlements */,
+				536753DB272012FA0009CED8 /* Info.plist */,
 				536753B5272012510009CED8 /* DemoCitrixMamApp.swift */,
 				536753B7272012510009CED8 /* ContentView.swift */,
+				536753DA272012D10009CED8 /* DemoCitrixMam-Bridging-Header.h */,
 				536753B9272012520009CED8 /* Assets.xcassets */,
 				536753BB272012520009CED8 /* Preview Content */,
 			);
@@ -67,6 +122,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		536753C3272012AB0009CED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				536753C4272012AB0009CED8 /* CitrixLogger.xcframework */,
+				536753CA272012AB0009CED8 /* CTXMAMAppCore.xcframework */,
+				536753C7272012AB0009CED8 /* CTXMAMCompliance.xcframework */,
+				536753C8272012AB0009CED8 /* CTXMAMContainment.xcframework */,
+				536753C6272012AB0009CED8 /* CTXMAMCore.xcframework */,
+				536753C9272012AB0009CED8 /* CTXMAMLocalAuth.xcframework */,
+				536753C5272012AB0009CED8 /* CTXMAMNetwork.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +146,8 @@
 				536753AE272012510009CED8 /* Sources */,
 				536753AF272012510009CED8 /* Frameworks */,
 				536753B0272012510009CED8 /* Resources */,
+				536753D9272012AB0009CED8 /* Embed Frameworks */,
+				536753DD272013720009CED8 /* Create MDX file */,
 			);
 			buildRules = (
 			);
@@ -131,6 +202,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		536753DD272013720009CED8 /* Create MDX file */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Create MDX file";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nexport STOREURL=\"http://yourstore.yourdomain.com\"\nexport APPTYPE=\"sdkapp\"\nexport PACKAGEID=\"3875D9A3-29F6-4E7F-AD46-54275785563F\"\nexport APPIDPREFIX=\"0123456789\"\nexport TOOLKIT_DIR=\"$PROJECT_DIR/$PROJECT/CitrixMam/Tools\"\n\nif [ -z \"${PACKAGEID}\" ]\nthen\n    echo \"PACKAGEID variable was not found or was empty, please run uuidgen at the command line and paste the output value in the PACKAGEID variable in your post build script.\"\n    exit 1\nfi\n\nif [ -z \"${APPIDPREFIX}\" ]\nthen\n    echo \"APPIDPREFIX variable was not found or was empty, please refer to the \\\"how to\\\" document located in the documentation folder of the SDK package on where to find your Apple's application prefix ID.\"\n    exit 1\nfi\n\nif [ ! -d $TOOLKIT_DIR/logs ]\nthen\n    mkdir $TOOLKIT_DIR/logs\nfi\n\n\"$TOOLKIT_DIR/CGAppCLPrepTool\" SdkPrep -in \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_FOLDER_PATH\" -out \"$CONFIGURATION_BUILD_DIR/$EXECUTABLE_NAME.mdx\" -storeURL \"${STOREURL}\" -appType \"${APPTYPE}\" -packageId \"${PACKAGEID}\" -entitlements \"$SRCROOT/$PROJECT/$PROJECT.entitlements\" -appIdPrefix \"${APPIDPREFIX}\" -minPlatform \"9.0\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		536753AE272012510009CED8 /* Sources */ = {
@@ -196,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -266,12 +358,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoCitrixMam/DemoCitrixMam.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoCitrixMam/Preview Content\"";
 				DEVELOPMENT_TEAM = V22FY27QPA;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoCitrixMam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -286,6 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ragu.DemoCitrixMam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCitrixMam/DemoCitrixMam-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,12 +392,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DemoCitrixMam/DemoCitrixMam.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoCitrixMam/Preview Content\"";
 				DEVELOPMENT_TEAM = V22FY27QPA;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoCitrixMam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ragu.DemoCitrixMam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "DemoCitrixMam/DemoCitrixMam-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

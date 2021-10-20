@@ -1,0 +1,5 @@
+2021-10-20 11:07:59 [ManifestLib] Could not find Icon entry in /Users/raphaelguye/Library/Developer/Xcode/DerivedData/DemoCitrixMam-ffudjwocrystmealukynbvrlmcer/Build/Products/Debug-iphoneos/DemoCitrixMam.app , icons are mandatory
+2021-10-20 11:07:59 [ManifestLib] Error:- We are not able to add MobileApp section into manifest XML file
+2021-10-20 11:07:59 [CommandLine] Failed to generate this file: manifest.xml
+------------------------------
+
